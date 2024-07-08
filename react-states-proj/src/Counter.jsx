@@ -7,6 +7,14 @@ export default function Counter() {
     let incCount = () => {
         setCount(count+1)
         console.log(count);
+
+        //callback in setState function
+        // setCount((currCount)=>{
+        //     return currCount+1;
+        // })
+        // setCount((currCount)=>{
+        //     return currCount+1;
+        // })
     }
 
     return (
