@@ -1,0 +1,21 @@
+for studying states we have to study hooks also
+hooks were a new addition in react 16.8 till this we have 10 hooks
+they let u use state and other react features without writing a class
+before hooks we render by making class components
+but now we use functional components
+but now in 18th version 5 more hooks added so total 15 hooks are there now.
+
+1st basic hook is -> usestate
+it lets you add a state variable to your component
+
+const [state,setState]=useState(initialState);
+useState returns an array with exactly 2 values
+1.The current state. During the 1st render, it will match the initialState you have passed.
+2.The set function that lets you update the state to a different value and trigger a re render
+
+for ex 
+initialState=0
+state=count
+setState
+
+closure:A closure is a feature in js where an inner function has access to the outer (enclosing) functions variables
